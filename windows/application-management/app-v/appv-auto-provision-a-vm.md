@@ -42,7 +42,7 @@ For this process to work, you must have a base operating system available as a V
 
 1. Open PowerShell as an admin and run the **Convert-WindowsImage** tool, using the following commands:
 
-    ```ps1
+    ```powershell
     Convert-WindowsImage -SourcePath "<path_to_iso_image>" -VHDFormat "VHD" -VHDPartitionStyle "MBR"
     ```
     Where ```<path_to_iso_image>``` is the full path to your ISO image.
@@ -97,7 +97,7 @@ If your apps require custom prerequisites, such as Microsoft SQL Server, we reco
 
 2. Open PowerShell as an admin and run the **Connect-AppvSequencerVM** cmdlet, using the following parameters:
 
-    ```ps1
+    ```powershell
     Connect-AppvSequencerVM -VMName "<name_of_vm>"
     ```
     
